@@ -1,0 +1,11 @@
+Package: recoverNetwork
+Type: Package
+Title: Recovers Network from Panel Data
+Version: 0.1.0
+Author: Pedro CL Souza
+Maintainer: Pedro CL Souza <pedroclsouza@gmail.com>
+Description: Package implementation of the paper Identifying Network Ties from Panel Data (De Paula, Souza, Rasul, 2023)
+License: Proprietary use
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
