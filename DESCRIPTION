@@ -18,4 +18,5 @@ Imports:
   glmnet,
   CVXR,
   MASS,
-  Matrix
+  Matrix,
+  tidyverse
