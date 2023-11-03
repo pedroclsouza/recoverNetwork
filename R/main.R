@@ -14,6 +14,16 @@
 
 recoverNetwork <- function(data,lambda,exoeffects=1,docv=0,timeweights=1,eta=0.05,Wder=NA,adaestmethod="cvxr",dopostols=0,Wfixed=-1){
   
+  library(stringr)
+  library(fixest)
+  library(tibble)
+  library(dplyr)
+  library(devtools)
+  library(glmnet)
+  library(CVXR)
+  library(MASS)
+  library(Matrix)
+  
   # settings ==================================================================
   
   param <- list()
