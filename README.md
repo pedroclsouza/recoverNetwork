@@ -2,8 +2,22 @@
 
 Instructions and implementation package of "Identifying Network Ties from Panel Data: Theory and an Application to Tax Competition" by De Paula, Rasul and Souza (fortcoming at the Review of Economic Studies).
 
+## Installing this package
+
+To install this package in your local R, run
+
+```html
+library(devtools)
+install_github("pedroclsouza/recovernetwork")
+```
+
 ## Simple example
 
+Load the package
+
+```html
+library(recoverNetwork)
+```
 Generate some simple data using the function `gendata`. It accepts two inputs:
 
 1. `seed` fixes the random number generating seed
